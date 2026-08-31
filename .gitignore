@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+
+# Buffer incremental de la extraccion: se regenera solo, no se versiona
+data/libros_parcial.jsonl
+
+# HTML de muestra usado para probar los parsers sin tocar la red
+tests/fixtures/*.html
